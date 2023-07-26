@@ -1,0 +1,31 @@
+header, main, section, footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, p {
+  padding: 5px;
+}
+
+h1, h2, h3, p, li {
+  border: 1px solid #000;
+}
+
+h1, h2, h3, p, li {
+  border: 1px solid #000;
+}
+
+@keyframes moveBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+body {
+  background-image: url("C:\\Users\\opw_2\\Pictures\\Camera Roll\\WIN_20230116_19_53_58_Pro.jpg");
+  background-size: cover;
+  animation: moveBackground 20s linear infinite alternate;
+}
