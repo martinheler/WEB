@@ -1,0 +1,67 @@
+/* Resetear los márgenes y el relleno por defecto para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+/* Estilos para las secciones */
+section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #4CAF50;
+    ;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+img.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.redes-sociales {
+    display: inline-block;
+    margin-right: 10px;
+}
+
