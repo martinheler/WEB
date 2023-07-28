@@ -7,12 +7,12 @@
   <title>Mi currículum vitae</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-  integrity="sha384-shtts1EYjUSsJaMa5iW9aVjuw1TKxx2CVP8vBmIlvEA8hBLz6UOk3MBCSwFhhdnH" crossorigin="anonymous">
+    integrity="sha384-shtts1EYjUSsJaMa5iW9aVjuw1TKxx2CVP8vBmIlvEA8hBLz6UOk3MBCSwFhhdnH" crossorigin="anonymous">
 </head>
 
 <body>
   <header>
-    <h1 class="name">Martín Coronado</h1>
+    <h1 class="name">Martín Humberto Coronado Gutierréz</h1>
     <h2 class="title">Ingeniero en Sistemas</h2>
     <p class="location">Panamá, Panamá Oeste</p>
     <a class="linkedin-btn" href="https://www.linkedin.com/in/martin-coronado-06954687" target="_blank"
@@ -25,7 +25,7 @@
   <main>
     <section>
       <h2>Experiencia laboral</h2>
-      <ul>
+      <ul class="experience-list">
         <li>
           <h3>ING. de software</h3>
           <p>DELL</p>
@@ -83,7 +83,7 @@
     </section>
     <section>
       <h2>Educación</h2>
-      <ul>
+      <ul class="education-list">
         <li>
           <h3>Licenciatura en Ingeniería de Sistemas y Computación</h3>
           <p>Universidad Tecnológica de Panamá, Panamá</p>
@@ -96,16 +96,27 @@
         </li>
       </ul>
     </section>
-    <section>
-      <h2>Habilidades</h2>
-      <ul>
-        <li>
-          <h3>Habilidad 1</h3>
+    <section class="skills-section">
+      <h2>Habilidades Blandas</h2>
+      <ul class="skills-list">
+        <li>Comunicación</li>
+        <li>Trabajo en equipo</li>
+        <li>Resolución de problemas</li>
+        <li>Empatía</li>
+      </ul>
+      <h2>Habilidades Duras</h2>
+      <ul class="skills-list">
+        <li>Programación
+          <ul class="sub-skills-list">
+            <li>Python</li>
+            <li>Java</li>
+            <li>C|C++</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>.Net</li>
+            <li>C#</li>
+          </ul>
         </li>
-        <li>
-          <h3>Habilidad 2</h3>
-        </li>
-        <!-- Agregar más habilidades si es necesario -->
       </ul>
     </section>
   </main>
