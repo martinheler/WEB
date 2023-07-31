@@ -16,7 +16,7 @@ body {
 
 /* Estilos para el encabezado */
 header {
-    background-color: #4CAF50;
+    background-color: #1c344d;
     padding: 20px;
     color: #fff;
     text-align: center;
@@ -44,7 +44,7 @@ h2 {
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #4CAF50;
+    background-color: #1c344d;
     ;
     color: #fff;
     padding: 10px;
@@ -56,6 +56,19 @@ img.icon {
     height: 30px;
 }
 
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #1c344d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
 .title {
     font-size: 24px;
 }

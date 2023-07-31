@@ -22,7 +22,7 @@ header {
 }
 
 section {
-  padding: 20px;
+  padding: auto;
 }
 
 footer {
@@ -36,12 +36,25 @@ table, td, th{
   border: 1px solid #000;
 }
 
-
+button:hover {
+  background-color: #0056b3;
+}
 .name {
   margin: 0;
 }
 
 /* Estilos para el botón de LinkedIn */
+.retornar{
+  display: inline-block;
+  margin-top: 10px;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #0077b5; /* Azul de LinkedIn */
+  color: #fff; /* Texto blanco */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 .linkedin-btn {
   display: inline-block;
   margin-top: 10px;
@@ -62,23 +75,3 @@ table, td, th{
   margin-right: 8px;
 }
 
-/* Estilos para las secciones y listas */
-
-.skills-list {
-  list-style-type: disc;
-  padding: 0;
-  margin: 0;
-}
-
-.skills-list li {
-  margin-bottom: 8px;
-}
-
-.sub-skills-list {
-  list-style-type: circle; /* Puedes utilizar otro estilo si lo prefieres */
-  padding-left: 20px;
-}
-
-.sub-skills-list li {
-  margin-bottom: 5px;
-}

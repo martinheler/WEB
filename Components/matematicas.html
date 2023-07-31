@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Codigos Matematicos JS</title>
+  <link rel="stylesheet" href="CSS/codigosMat.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <section>
+        <a href="landing.html">
+          <button class="regresar"> Regresar a la pagina principal</button>
+        </a>
+      </section>
+    </header>
+    <h1>Verificar si un número es par</h1>
+    <form id="PruebaPar">
+      <label for="numeroPar">Ingresa un número:</label>
+      <input type="number" id="numeroPar" />
+      <button type="submit">Comprobar Par</button>
+    </form>
+
+    <div id="resultadoPar"></div>
+
+    <h1>Verificar si un número es primo</h1>
+    <form id="PruebaPrimo">
+      <label for="numeroPrimo">Ingresa un número:</label>
+      <input type="number" id="numeroPrimo" />
+      <button type="submit">Comprobar Primo</button>
+    </form>
+
+    <div id="resultadoPrimo"></div>
+
+    <h1>Serie Fibonacci</h1>
+    <form id="serieFibonacci">
+      <label for="numeroCiclos">Ingresa el número de ciclos. el maximo aceptado es 100 ciclos:</label>
+      <input type="number" id="numeroCiclos" />
+      <button type="submit">Generar Serie Fibonacci</button>
+    </form>
+
+    <div id="resultadoFibonacciContainer">
+      <table id="resultadoFibonacci">
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="resultadoSeriePrima"></div>
+
+    <h1>Serie de numeros primos</h1>
+    <form id="seriePrima">
+      <label for="numeroCiclos">Ingresa hasta que numero verificar la serie</label>
+      <p>el numero maximo aceptado es 100000</p>
+      <input type="number" id="numeroMaxPrimo" />
+      <button type="submit">Generar Serie Prima</button>
+    </form>
+
+    <div id="resultadoSeriePrimaContainer">
+      <table id="resultadoPrimos">
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <script src="JS/CodigosMatematicos.js"></script>
+</body>
+
+</html>
