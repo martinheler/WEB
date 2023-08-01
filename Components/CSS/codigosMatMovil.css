@@ -1,0 +1,85 @@
+/* CSS para la versión móvil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px; /* Tamaño de letra base para dispositivos móviles */
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 10px; /* Reduce el espaciado para dispositivos móviles */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-top: 20px; /* Reduce el margen superior para dispositivos móviles */
+    font-size: 24px; /* Ajusta el tamaño de las cabeceras para dispositivos móviles */
+  }
+  
+  form {
+    margin-bottom: 10px; /* Reduce el espaciado entre formularios para dispositivos móviles */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"] {
+    width: 100%; /* Ajusta el ancho al 100% para dispositivos móviles */
+    padding: 10px;
+    font-size: 16px; /* Ajusta el tamaño de letra para campos numéricos */
+  }
+  
+  button {
+    width: 100%; /* Ajusta el ancho al 100% para dispositivos móviles */
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #resultadoPar,
+  #resultadoPrimo{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+ #resultadoFibonacciContainer,
+ #resultadoSeriePrimaContainer{
+  max-height: 200px; /* Ajusta la altura según tus necesidades */
+  overflow-x: auto; /* Barra de desplazamiento horizontal */
+  overflow-y: auto; /* Barra de desplazamiento vertical */
+}
+
+  .regresar {
+    margin-top: 20px;
+    font-size: 16px; /* Ajusta el tamaño de letra para el botón de regresar */
+  }
+  
+  #resultadoFibonacci,
+  #resultadoPrimos {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #resultadoFibonacci td,
+  #resultadoPrimos td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16px; /* Ajusta el tamaño de letra para las celdas de la tabla */
+  }
+  

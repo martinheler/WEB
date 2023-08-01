@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section p {
+    text-align: justify;
+  }
+  
+  /* Estilos para el header */
+  header {
+    background-color: #1c344d; /* Azul oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    padding: auto;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #1c344d; /* Azul oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 10px;
+  }
+  
+  table, td, th{
+    border: 1px solid #000;
+  }
+  
+  /* Estilos para el botón de LinkedIn */
+  .retornar{
+    display: inline-block;
+    margin-top: 10px;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #0077b5; /* Azul de LinkedIn */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para versiones móviles */
+  @media screen and (max-width: 767px) {
+    /* Ajustar el tamaño del texto del cuerpo para dispositivos móviles */
+    body {
+      font-size: 14px;
+    }
+  
+    /* Ajustar el tamaño del encabezado para dispositivos móviles */
+    header {
+      padding: 10px;
+    }
+  
+    /* Ajustar el tamaño del pie de página para dispositivos móviles */
+    footer {
+      padding: 5px;
+    }
+  
+    /* Ajustar el tamaño del botón de LinkedIn para dispositivos móviles */
+    .retornar {
+      padding: 6px 10px;
+      font-size: 14px;
+    }
+  }
+  

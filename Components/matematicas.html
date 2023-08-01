@@ -1,10 +1,17 @@
+<?php
+
+header("Cache-Control: no-cache, must-revalidate"); // No almacenar en caché
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Fecha de vencimiento pasada
+?>
+
 <!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="UTF-8">
   <title>Codigos Matematicos JS</title>
-  <link rel="stylesheet" href="CSS/codigosMat.css">
+  <link rel="stylesheet" href="CSS/codigosMatMovil.css" media="(max-width: 768px)">
+  <link rel="stylesheet" href="CSS/codigosMat.css" media="(min-width: 769px)">
 </head>
 
 <body>
