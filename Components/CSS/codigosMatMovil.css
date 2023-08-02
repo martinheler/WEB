@@ -28,16 +28,17 @@ body {
   }
   
   input[type="number"] {
-    width: 100%; /* Ajusta el ancho al 100% para dispositivos móviles */
+    width: 200px; /* Ajusta el ancho al 100% para dispositivos móviles */
+    height: 50px;
     padding: 10px;
-    font-size: 16px; /* Ajusta el tamaño de letra para campos numéricos */
+    font-size: 24px; /* Ajusta el tamaño de letra para campos numéricos */
   }
   
   button {
     width: 100%; /* Ajusta el ancho al 100% para dispositivos móviles */
     margin-top: 10px;
     padding: 8px 15px;
-    font-size: 16px;
+    font-size: 24px;
     border-radius: 15px;
     background-color: #007bff;
     color: #fff;
@@ -65,8 +66,10 @@ body {
 }
 
   .regresar {
+    width: 200px; /* Ajusta el ancho al 100% para dispositivos móviles */
+    height: 50px;
     margin-top: 20px;
-    font-size: 16px; /* Ajusta el tamaño de letra para el botón de regresar */
+    font-size: 24px; /* Ajusta el tamaño de letra para el botón de regresar */
   }
   
   #resultadoFibonacci,
@@ -80,6 +83,6 @@ body {
     padding: 5px;
     border: 1px solid #ccc;
     text-align: center;
-    font-size: 16px; /* Ajusta el tamaño de letra para las celdas de la tabla */
+    font-size: 24px; /* Ajusta el tamaño de letra para las celdas de la tabla */
   }
   

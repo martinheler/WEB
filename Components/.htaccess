@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# Redireccionar a HTTPS y www
+RewriteCond %{HTTP_HOST} ^martincoronado\.free\.nf [NC,OR]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.martincoronado.free.nf/$1 [R=301,L]
+
+# Denegar el acceso directo a .htaccess
+<Files .htaccess>
+Require all denied
+</Files>
+
+# Desactivar el caché de navegador
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+</IfModule>

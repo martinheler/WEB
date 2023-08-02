@@ -1,0 +1,26 @@
+Options -Indexes
+Deny from all
+
+<Files "codigosMat.css">
+  Allow from all
+</Files>
+
+<Files "codigosMatMovil.css">
+  Allow from all
+</Files>
+
+<Files "CV_Style.css">
+  Allow from all
+</Files>
+
+<Files "CV_Style_movil.css">
+  Allow from all
+</Files>
+
+<Files "landing_Style.css">
+  Allow from all
+</Files>
+
+<Files "landing_stylemovil.css">
+  Allow from all
+</Files>

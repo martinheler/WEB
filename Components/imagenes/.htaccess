@@ -1,0 +1,18 @@
+Options -Indexes
+Deny from all
+
+<Files "linkedin.png">
+  Allow from all
+</Files>
+
+<Files "mail-icon.png">
+  Allow from all
+</Files>
+
+<Files "phone.png">
+  Allow from all
+</Files>
+
+<Files "whatsapp-icon.png">
+  Allow from all
+</Files>

@@ -1,0 +1,6 @@
+Options -Indexes
+Deny from all
+
+<Files "CodigosMatematicos.js">
+  Allow from all
+</Files>
